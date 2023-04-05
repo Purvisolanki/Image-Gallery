@@ -16,7 +16,7 @@ async function fetchData() {
       dataArray.push(item);
     });
 
-    galleryContainer.style.display = "flex";
+//     galleryContainer.style.display = "flex";
     loadingElement.style.display = "none";
     bindData(dataArray);
   } catch (error) {
